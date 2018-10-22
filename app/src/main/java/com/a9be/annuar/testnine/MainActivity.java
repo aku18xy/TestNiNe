@@ -29,9 +29,11 @@ public class MainActivity extends AppCompatActivity{
         test.bukaJsonTab(R.id.outer_layout, this);
 
 
-//        test.editText(R.id.outer_layout,this,0,1,1,"Annuar Zaini Abdullah");
-//        test.editText(R.id.outer_layout,this,0,2,0,"A quick brown fox jumps over the lazy dog");
-//        test.editText(R.id.outer_layout,this,1,2,0,"Timestamp");
+        test.editText(R.id.outer_layout,this,1,1,0,"Ketua");
+//        test.editText(R.id.outer_layout,this,1,1,0,"Ketua");
+//        test.editText(R.id.outer_layout,this,1,4,1,"Annuar Zaini Abdullah");
+        test.editText(R.id.outer_layout,this,1,2,3,"A quick brown fox jumps over the lazy dog");
+        test.editText(R.id.outer_layout,this,1,2,1,"Timestamp");
 
 
     }

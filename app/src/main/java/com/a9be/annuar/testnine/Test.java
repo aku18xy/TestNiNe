@@ -147,7 +147,7 @@ public class Test {
         View viewOuter = linearLayoutOuter.getChildAt(x);   //x
         LinearLayout linearLayoutHeader = (LinearLayout) viewOuter;
         View viewGroup = linearLayoutHeader.getChildAt(y);  // y header group
-        LinearLayout linearLayoutItem = (LinearLayout) viewGroup;
+        ViewGroup linearLayoutItem = (ViewGroup) viewGroup;
 
         View viewElement = linearLayoutItem.getChildAt(z);  // z
         ((TextView) viewElement).setText(value);
